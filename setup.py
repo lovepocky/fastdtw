@@ -8,6 +8,8 @@ try:
     USE_CYTHON = True
 except ImportError:
     USE_CYTHON = False
+   
+print(f"USE_CYTHON {USE_CYTHON}")
 
 # numpy path is needed for building with and without cython:
 try:
